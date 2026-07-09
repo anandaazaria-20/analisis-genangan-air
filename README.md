@@ -1,12 +1,21 @@
-# Tugas Metodologi Penelitian - Analisis Genangan Air
+# Tugas Metodologi Penelitian - Analisis Spasial Genangan Air
 
 **Oleh:** Ananda Azaria Khairunnisa
-**Institusi:** IPB University
+**Institusi:** IPB University  
 
-## Deskripsi
-Penelitian ini bertujuan untuk mereproduksi analisis deteksi genangan air menggunakan data spasial satelit Sentinel-2 dan metode Normalized Difference Water Index (NDWI).
+---
 
-## Cara Menjalankan (Reproduksi)
-1. Pastikan Anda memiliki akun Google Earth Engine yang sudah diregistrasi.
-2. Buka terminal/CMD dan install library dengan perintah: `pip install -r requirements.txt`
-3. Buka file `analisis_air_permukaan.ipynb` dan jalankan seluruh baris kode dari atas ke bawah.
+## 📌 Deskripsi dan Tujuan
+Penelitian ini bertujuan untuk mereproduksi analisis deteksi genangan air permukaan secara interaktif menggunakan data citra satelit **Sentinel-2** dan perhitungan **Normalized Difference Water Index (NDWI)**. 
+
+Fokus area studi (*Region of Interest*) pada penelitian ini adalah **Waduk Jatiluhur, Purwakarta**, dengan batasan radius 12 KM dari titik pusat koordinat. Pengambilan citra difokuskan pada periode **musim kemarau (Juni - September 2024)** untuk meminimalisir tutupan awan sehingga objek badan air dapat terekstraksi dengan sempurna.
+
+## 📂 Struktur Repositori
+Repositori ini terdiri dari beberapa berkas pendukung untuk memastikan riset dapat direproduksi dengan baik:
+```text
+analisis-genangan-air/
+│
+├── analisis_air_permukaan.ipynb   # Skrip utama analisis spasial (Jupyter/Colab)
+├── requirements.txt               # Daftar pustaka/library Python yang dibutuhkan
+├── README.md                      # Dokumentasi alur kerja repositori
+└── LICENSE                        # Lisensi hak cipta kode (MIT)
