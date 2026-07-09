@@ -1,6 +1,7 @@
 # Tugas Metodologi Penelitian - Analisis Spasial Genangan Air
 
-**Oleh:** Ananda Azaria Khairunnisa (Nanda)  
+**Oleh:** Ananda Azaria Khairunnisa
+**NIM:** F4401221051
 **Institusi:** IPB University  
 
 ---
